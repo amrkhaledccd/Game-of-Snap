@@ -12,6 +12,12 @@ public class Card {
 
     @Override
     public String toString() {
-        return String.format("%s [%s]", value, suit.name());
+        var valueStr = switch (value) {
+            case 11 -> "J";
+            case 12 -> "Q";
+            case 13 -> "K";
+            default -> String.valueOf(value);
+        };
+        return String.format("%s [%s]", valueStr, suit.name());
     }
 }
