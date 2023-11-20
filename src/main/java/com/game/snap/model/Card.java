@@ -2,9 +2,11 @@ package com.game.snap.model;
 
 
 import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 
 @AllArgsConstructor
+@EqualsAndHashCode
 @Getter
 public class Card {
     private int value;
