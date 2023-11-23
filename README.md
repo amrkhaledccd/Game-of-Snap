@@ -10,8 +10,8 @@ I assumed it is the same as number of players (since each player has a deck to p
 # Highlights
  **PlayerDeck** -> is a player stacks of cards, contains two stacks, flipped and non flipped cards.
 
-**PlayDeckManager** -> is responsible to manage playerDeck, it flip the card for the current player
-and check if there is matched card in the top of other players stack based on the choosed Matching.
+**PlayDeckManager** -> is responsible to manage playerDeck, it flips the card for the current player
+and check if there is matched card in the top of other players stack based on the choosen Matching.
 
 **GameManager** it maintain a queue of players and is responsible for constructing game cards, shuffle them and deal the cards to the players.
 these methods are straight forward.
